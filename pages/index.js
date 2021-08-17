@@ -120,7 +120,7 @@ export default function Index() {
     <React.Fragment>
     <Container maxWidth="lg">
       <Header title="MarvelList" sections={sections}/>
-      <h1 className={classes.h1}>ESCOLHA UMA OPÇÃO</h1>
+      
       <Grid container spacing={4}>
       {characters.map((i,k) => (
               <Grid item key={k} xs={12} sm={6} md={4}>
